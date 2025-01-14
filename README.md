@@ -1,11 +1,11 @@
 # 권은지
 
-## 기술스택
+## Skills
 * Frontend  :  JavaScript(ES6), React.js, HTML, CSS 
 * Backend   :  JAVA, Spring Boot, JPA 
 * Database  :  MariaDB
 
-## 프로젝트
+## Projects
 ```
 크라우드 펀딩 플랫폼, Komofunding
 ``` 
@@ -40,3 +40,8 @@
   - https://github.com/coding-ji/portfolio/tree/main/kkomoadopt
 
 ### 프로젝트 기술 스택
+![프로젝트통합](https://github.com/user-attachments/assets/995992b3-e5eb-41db-969f-4d1e05add7b5)
+
+## Contacts
+📧 email : eunjikn@daum.net <br/>
+📝 blog : https://coding-ji.tistory.com/
