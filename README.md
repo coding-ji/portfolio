@@ -13,9 +13,14 @@
 ``` 
 * 기간 : 2024.11.04 ~ 2024.12.18
 * 인원 : 8명
-* 소개 : 'Komofunding'은 크라우드 펀딩 플랫폼으로, 사용자의 프로젝트를 홍보하고 다른 사용자로부터 후원을 받을 수 있도록 지원하는 웹 서비스입니다.
+* 소개 <br/>
+  'Komofunding'은 크라우드 펀딩 플랫폼으로 사용자의 프로젝트를 홍보하고 다른 사용자로부터 후원을 받을 수 있도록 지원하는 웹 서비스입니다.
 * 기술스택
-  - front 
+  - Frontend : JavaScript, React.js, HTML, CSS
+  - Backend : Java, Spring Boot, JPA, MariaDB
+  - Database : MariaDB
+  - Design : Figma
+  - Diagram : draw.io, PlantUML
 * 핵심 기능
 * 팀 성과
 * 기여 부분
@@ -27,6 +32,12 @@
 * 기간 : 2024.11.04 ~ 2024.12.18
 * 인원 : 8명 
 * 소개 : 사용자가 간편하게 축구 경기를 예약하여 매칭을 등록을 지원하는 플랫폼
+* 기술스택
+  - Frontend : JavaScript, React.js, HTML, CSS
+  - Backend : Java, Spring Boot, JPA, MariaDB
+  - Database : MariaDB
+  - Design : Figma
+  - Diagram : draw.io, PlantUML
 * 핵심 기능
 * 팀 성과
 * 기여 부분
@@ -38,6 +49,12 @@
 * 기간 : 2024.11.04 ~ 2024.12.18
 * 인원 : 8명 
 * 소개 : 유기견의 정보를 관리하고, 입양을 원하는 사용자와 쉽게 연결할 수 있도록 지원하는 플랫폼
+* 기술스택
+  - Frontend : JavaScript, React.js, HTML, CSS
+  - Backend : Java, Spring Boot, JPA, MariaDB
+  - Database : MariaDB
+  - Design : Figma
+  - Diagram : draw.io, PlantUML
 * 핵심 기능
 * 팀 성과
 * 기여 부분
