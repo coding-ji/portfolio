@@ -8,17 +8,43 @@
   - Database : MariaDB
   - Design : Figma
   - Diagram : draw.io, PlantUML
-* 소개
+<br>
+
+## 소개
+
+### 메인 페이지
+
+### 유저 페이지
+
+### 프로젝트 페이지
 ```
-메인 페이지
+프로젝트
 ```
+##### 프로젝트 관리
+- ###### 프로젝트는 제작자 전환이 된 후에 작성이 가능하며 유저의 마이페이지에서 본인의 프로젝트를 생성, 수정 및 삭제가 가능합니다.
+![mypage-projects](https://github.com/user-attachments/assets/d7b593e7-163d-4eab-97ec-139711e920b6)
+
+##### 프로젝트 생성
+- ###### 프로젝트 생성 시 프로젝트 제목, 짧은 소개 글, 카테고리, 프로젝트 상품 등 작성을 하게되며 운영자가 해당 프로젝트를 승인하고 난 뒤 메인 페이지에서 프로젝트를 확인할 수 있습니다.
+![new-project](https://github.com/user-attachments/assets/9c668ba9-638f-4e3b-8ab8-672d989e891f)
+  
+##### 프로젝트 확인
+- ###### 유저 본인의 프로젝트의 경우 마이페이지에서 프로젝트 제목을 클릭하여 게시물 확인이 가능합니다.
+
+
+##### 프로젝트 수정
+- ###### 프로젝트 수정 시 프로젝트 제목, 짧은 소개 글, 카테고리 및 프로젝트 소개 글만 수정이 가능합니다. 
+![edit-projects](https://github.com/user-attachments/assets/4c25b131-6f43-4f2c-915d-4cf85b17104e)
+![edit-project](https://github.com/user-attachments/assets/f66b80d4-a798-44bc-a1f6-f4510ca0c67e)
+
+##### 프로젝트 삭제
+- ###### 프로젝트 삭제는 프로젝트가 시작되지 않은 경우에만 가능합니다.
+![delete-projects](https://github.com/user-attachments/assets/ef2c935a-e2b4-433d-acfa-a5e2de36b838)
+
+
 
 ```
-유저 페이지
-```
-
-```
-프로젝트 페이지
+후원하기(결제)
 ```
 
 
