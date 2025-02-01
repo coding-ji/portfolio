@@ -34,7 +34,7 @@
 
 ##### 프로젝트 수정
 - ###### 프로젝트 수정 시 프로젝트 제목, 짧은 소개 글, 카테고리 및 프로젝트 소개 글만 수정이 가능합니다. 
-![edit-projects](https://github.com/user-attachments/assets/4c25b131-6f43-4f2c-915d-4cf85b17104e)
+![edit-projects](https://github.com/user-attachments/assets/9b18c681-3bd0-499a-bfcc-a9ee105ae02a)
 ![edit-project](https://github.com/user-attachments/assets/f66b80d4-a798-44bc-a1f6-f4510ca0c67e)
 
 ##### 프로젝트 삭제
