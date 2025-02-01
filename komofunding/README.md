@@ -8,5 +8,21 @@
   - Database : MariaDB
   - Design : Figma
   - Diagram : draw.io, PlantUML
+* 소개
+```
+메인 페이지
+```
+
+```
+유저 페이지
+```
+
+```
+프로젝트 페이지
+```
+
+
+
 * 기여부분
 Github 주소 : https://github.com/coding-ji/komofunding.git
+
