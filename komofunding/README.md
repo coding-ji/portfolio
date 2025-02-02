@@ -1,20 +1,41 @@
 # Komofunding
 'Komofunding은 크라우드 펀딩 플랫폼으로 사용자의 프로젝트를 홍보하고 다른 사용자로부터 후원을 받을 수 있도록 지원하는 웹 서비스입니다. 
 * 기간 : 2024.11.04 ~ 2024.12.18
+
 * 인원 : 8명
+
 * 기술스택
   - Frontend : JavaScript, React.js, HTML, CSS
   - Backend : Java, Spring Boot, JPA, MariaDB
   - Database : MariaDB
   - Design : Figma
   - Diagram : draw.io, PlantUML
+
+* 기여부분
+  -  유스케이스 다이어그램, 개념 ERD, 클래스다이어그램, API명세서 작성
+  -  Project, QnA(1:1문의, 문의댓글) 백엔드 로직 구현 및 데이터베이스 설계
+  -  Payment 관련 외부 결제 API 연동, 백엔드 로직 구현 및 데이터베이스 설계
+
+* Github 주소 : https://github.com/coding-ji/komofunding.git
 <br>
 
 ## 소개
 
->### 메인 페이지
+>### 메인
+#### 메인 화면
+- ###### 메인 화면은 프로젝트의 달성률과 대표 이미지를 중심으로 간결하게 구성하였습니다. Framer motion을 활용하여 다양한 애니메이션을 적용하여 동적인 사용자 경험을 제공합니다.
+![main](https://github.com/user-attachments/assets/4d91e8cd-14d5-425d-a95b-7d1c6750df53)
+---
+#### 홈 화면 
+- ###### 홈 화면은 전체 프로젝트를 카테고리 별로 확인할 수 있도록 구성하였습니다. 후원하는 품목에 집중할 수 있도록 이미지를 중심으로 한 레이아웃을 구성하였습니다.
+~~~
+Home: 운영자의 승인을 받은 모든 프로젝트 | Upcoming : 아직 후원이 시작되지 않은 프로젝트 | Active : 현재 후원이 진행 중인 프로젝트
+~~~
+![home](https://github.com/user-attachments/assets/ff4a7e5d-d1a5-4324-a5a8-05e4a4f0ebb8)
+<br>
 
->### 유저 페이지
+>### 유저
+<br>
 
 >### 프로젝트
 #### 프로젝트 관리
@@ -44,6 +65,5 @@
 
 
 
-* 기여부분
-Github 주소 : https://github.com/coding-ji/komofunding.git
+
 
