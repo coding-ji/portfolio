@@ -36,6 +36,7 @@ Pitchplay는 사용자가 간편하게 축구 경기를 예약하고 매칭 팀 
 #### 소셜 매칭 게시물
 - ###### 소셜 매칭 게시물 상세 보기에서 매치정보, 신청선수 명단 및 구장정보를 확인할 수 있습니다.
 - ###### 구장 지도는 카카오맵API와 연동되었습니다.
+![pitchplay-social](https://github.com/user-attachments/assets/ff9b5125-5ca3-4d57-bfc3-b0e3a89dd0ba)
 
 ---
 
@@ -43,25 +44,28 @@ Pitchplay는 사용자가 간편하게 축구 경기를 예약하고 매칭 팀 
 #### 팀 매칭 
 - ###### 팀 매칭 게시물은 팀 리더가 구장 예약 시에 등록되며, 신청하기를 통해 팀 끼리 매칭을 진행할 수 있습니다.
 - ###### 팀 매칭 게시물 신청하기를 누르면 매치정보, 신청 팀 이름 및 구장정보를 확인할 수 있습니다. 
-!
+![pitchplay-teammatching](https://github.com/user-attachments/assets/ee786561-2c68-454f-8876-01b3b5eb1745)
 ---
 #### 팀원 모집 
 - ###### 팀원 모집 게시물은 팀이 생성 시에 등록되며, 팀 리더의 승인 후에 팀에 가입할 수 있습니다.
 - ###### 팀원 모집 게시물 상세 보기에서 팀의 활동 위치, 활동 요일, 팀원 구성 및 팀 레벨을 확인할 수 있습니다. 
-!
+![pitchplay-teamrecruitment](https://github.com/user-attachments/assets/1c79421d-9c92-4a26-bc03-fe5892cef0fe)
 ---
 #### 용병 모집
 - ###### 팀 리더가 예약된 경기에서 추가 인원이 필요한 경우, 용병 모집 게시물을 작성하여 선수를 구할 수 있습니다.
-!
+![pitchplay-newguest](https://github.com/user-attachments/assets/2603fd00-c124-43f1-820f-2b01a8df760d)
 ---
 #### 팀 생성
 - ###### 팀 생성하기를 통하여 팀을 새로 생성할 수 있습니다. 
+![pitchplay-teamcreation](https://github.com/user-attachments/assets/d7a4ebea-9079-465b-b6a2-325932fbfb91)
 
 ---
 
 >### 구장예약
 - ###### 구장 예약은 서울시 체육시설 공공서비스 예약 정보를 기반으로 이루어지며, 예약 신청 후 관리자가 최종 예약을 진행합니다.
-- ###### 구장 예약 시에 사용자가 충전해놓은 캐시를 사용하여 결제를 할 수 있습니다. 
+- ###### 구장 예약 시에 사용자가 충전해놓은 캐시를 사용하여 결제를 할 수 있습니다.
+![pitchplay-stadiumreservation](https://github.com/user-attachments/assets/68fd64bf-61cb-4f8a-bf70-be87a54b60ac)
+
 ---
 
 >### 공지사항
