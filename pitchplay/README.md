@@ -82,8 +82,33 @@ Pitchplay는 사용자가 간편하게 축구 경기를 예약하고 매칭 팀 
 ---
 
 >### 유저
-#### 마이페이지
-- ###### 마이페이지에서는 사용자의 활동과 정보를 한 곳에서 관리할 수 있습니다.
+#### 내정보
+- ###### 프로필 수정 및 캐시에 관련된 정보를 확인할 수 있습니다.
+![mypage](https://github.com/user-attachments/assets/7bf81e7c-216e-4758-8f7a-4b44b585ff9e)
+---
+#### 내활동
+- ###### 경기, 팀, 나의 댓글에 관련된 정보를 확인할 수 있습니다.
+![pitchplay-myactivity](https://github.com/user-attachments/assets/a423f4ec-be48-49b2-9364-0b931261d4d4)
+- ###### 예약한 경기 목록
+![reservedgame](https://github.com/user-attachments/assets/7ad2e880-c45b-462b-a180-7f1a80ec6898)
+- ###### 참가한 경기 목록
+![donegame](https://github.com/user-attachments/assets/169ef96f-48f3-4a64-b87e-ce949b012213)
+- ###### 내 팀 정보 : 팀의 매니저인 경우에 팀원 신청 관리 및 멤버 관리가 가능합니다.
+![pitchplay-team](https://github.com/user-attachments/assets/3beeddc4-4c22-45c6-b632-0039a34836ec)
+
+---
+
+#### 커뮤니티
+- ###### 작성한 게시물과 댓글을 확인할 수 있습니다.
+![mycommunity](https://github.com/user-attachments/assets/0f4d2e1d-7f0c-4c81-a8f6-731dbfbcb643)
+
+---
+
+#### 설정
+- ###### 유저의 개인정보를 관리할 수 있습니다. 
+![setting](https://github.com/user-attachments/assets/844b37f6-57bf-497b-b225-6f337d4daea0)
+
+---
 
 #### 통합검색
 - ###### 통합 검색을 통해 사용자는 선호하는 날짜, 지역, 선수 성별, 매칭 인원을 저장하여 검색에 활용할 수 있습니다. 해당 정보는 로컬스토리지에 저장됩니다. 
