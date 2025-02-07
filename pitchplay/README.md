@@ -71,10 +71,13 @@ Pitchplay는 사용자가 간편하게 축구 경기를 예약하고 매칭 팀 
 >### 공지사항
 #### 공지사항 | 자주묻는질문
 - ###### 공지사항 및 자주 묻는 질문을 확인할 수 있습니다.
-!
+![pitchplay-notices](https://github.com/user-attachments/assets/5ed9e976-1a3d-4eb3-85f6-06c9fe23cf94)
 ---
 #### 건의제보 | 매너제재
 - ###### 관리자에게 건의 사항을 제출하거나, 제재가 필요한 유저에 대한 내용을 작성할 수 있습니다.
+![pitchplay-report](https://github.com/user-attachments/assets/a0380120-125c-4758-9545-5866800d4a7c)
+- ###### 댓글을 사용하여 유저 간의 커뮤니케이션이 가능합니다.
+![pitchplay-comment](https://github.com/user-attachments/assets/8ef01f3e-1f9b-4ce9-97c0-450f0d40ad77)
 
 ---
 
