@@ -48,7 +48,7 @@ public class User {
     @Column(name = "profile_img", length = 255)
     private String profileImg; // 프로필 이미지
 
-    @Column(name = "short_description", length = 80)
+    @Column(name = "short_description", length = 100)
     private String shortDescription; // 유저 짧은 소개글
 
     @Column(name = "activated_status", columnDefinition = "varchar(255) default 'DONOR'") // 기본값 : DONOR("후원자")
@@ -80,10 +80,10 @@ public class User {
     private String corporationName; // 사업자명
 
     @Column(name = "corporation_tel", length = 100)
-    private String corporationTel; // 사업자 번호
+    private String corporationTel; // 사업자 전화번호
 
     @Column(name = "bsn", length = 100)
-    private Long BSN; // 사업자 등록 번호
+    private String BSN; // 사업자 등록 번호
 
     @Column(name = "project_ids", columnDefinition = "longtext")
     @Convert(converter = StringListConverter.class)
@@ -93,7 +93,7 @@ public class User {
     private Boolean privacyAgreement; // 개인정보 동의 여부
 
     @Builder
-    public User(String userId, Long userNum, String email, String password, String name, String nickName, String phoneNumber, String profileImg, String shortDescription, UserStatus activatedStatus, String deactivationReason, LocalDateTime deactivationDate, String bankName, String accountNumber, String accountHolder, LocalDateTime joinDate, LocalDateTime lastLoginTime, String corporationName, String corporationTel, Long BSN, List<String> projectIds, Boolean privacyAgreement) {
+    public User(String userId, Long userNum, String email, String password, String name, String nickName, String phoneNumber, String profileImg, String shortDescription, UserStatus activatedStatus, String deactivationReason, LocalDateTime deactivationDate, String bankName, String accountNumber, String accountHolder, LocalDateTime joinDate, LocalDateTime lastLoginTime, String corporationName, String corporationTel, String BSN, List<String> projectIds, Boolean privacyAgreement) {
         Assert.notNull(email, "email must not be null");
         Assert.notNull(password, "password must not be null");
 
