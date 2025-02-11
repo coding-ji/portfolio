@@ -5,13 +5,11 @@ import com.codingji.komofunding.common.enums.ProjectCategory;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.*;
 import lombok.Getter;
-import lombok.Setter;
 
 import java.time.LocalDateTime;
 import java.util.List;
 
 @Getter
-@Setter
 public class ProjectInDTO {
     private String userId;
 

@@ -3,10 +3,8 @@ package com.codingji.komofunding.dto;
 import com.codingji.komofunding.common.enums.QnaCategory;
 import jakarta.validation.constraints.*;
 import lombok.Getter;
-import lombok.Setter;
 
 @Getter
-@Setter
 public class QnAInDTO {
     private String userId; // 작성자 userId
 

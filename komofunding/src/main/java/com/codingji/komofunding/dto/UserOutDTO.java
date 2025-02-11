@@ -1,13 +1,12 @@
 package com.codingji.komofunding.dto;
 
 import com.codingji.komofunding.common.enums.UserStatus;
-import lombok.*;
+import lombok.Getter;
 
 import java.time.LocalDateTime;
 import java.util.List;
 
 @Getter
-@Setter
 public class UserOutDTO {
     private Long userNum;
     private String email;

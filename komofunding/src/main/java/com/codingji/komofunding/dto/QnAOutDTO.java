@@ -2,12 +2,10 @@ package com.codingji.komofunding.dto;
 
 import com.codingji.komofunding.common.enums.QnaCategory;
 import lombok.Getter;
-import lombok.Setter;
 
 import java.time.LocalDateTime;
 
 @Getter
-@Setter
 public class QnAOutDTO {
     //문의글 정보
     private QnaCategory qnaCategory; // 문의글 카테고리

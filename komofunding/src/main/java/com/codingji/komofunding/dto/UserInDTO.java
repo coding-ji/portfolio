@@ -6,12 +6,10 @@ import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;
 import jakarta.validation.constraints.Size;
 import lombok.Getter;
-import lombok.Setter;
 
 import java.util.List;
 
 @Getter
-@Setter
 public class UserInDTO {
     @Email(message = "올바른 이메일 형식을 입력하세요.")
     @NotBlank(message = "이메일은 필수 입력값입니다.")
@@ -64,7 +62,7 @@ public class UserInDTO {
 
     @Pattern(
             regexp = "^[0-9]{8,15}$",
-            message = "시압지 전화번호는 숫자만 입력해주세요. 최대 15자까지 입력 가능합니다."
+            message = "사업자 전화번호는 숫자만 입력해주세요. 최대 15자까지 입력 가능합니다."
     )
     private String corporationTel;
 

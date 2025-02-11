@@ -2,16 +2,12 @@ package com.codingji.komofunding.dto;
 
 import com.codingji.komofunding.common.dto.ItemDTO;
 import com.codingji.komofunding.common.enums.ProjectCategory;
-import lombok.Builder;
 import lombok.Getter;
-import lombok.Setter;
 
 import java.time.LocalDateTime;
 import java.util.List;
 
 @Getter
-@Setter
-@Builder
 public class ProjectOutDTO {
     // 프로젝트 작성 유저 관련 정보 (userId로 찾아오기)
     private Long userNum;
