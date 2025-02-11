@@ -9,6 +9,7 @@ import org.springframework.util.Assert;
 import java.time.LocalDateTime;
 import java.util.List;
 
+@Getter
 @Entity
 @Table(name = "PAYMENT",
         indexes = {

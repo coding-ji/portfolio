@@ -1,6 +1,7 @@
 package com.codingji.komofunding.dto;
 
 import com.codingji.komofunding.common.dto.ItemDTO;
+import lombok.Builder;
 import lombok.Getter;
 
 
@@ -8,6 +9,7 @@ import java.time.LocalDateTime;
 import java.util.List;
 
 @Getter
+@Builder
 public class PaymentOutDTO {
     // 유저관련
     private String userNum;

@@ -1,11 +1,13 @@
 package com.codingji.komofunding.dto;
 
 import com.codingji.komofunding.common.enums.QnaCategory;
+import lombok.Builder;
 import lombok.Getter;
 
 import java.time.LocalDateTime;
 
 @Getter
+@Builder
 public class QnAOutDTO {
     //문의글 정보
     private QnaCategory qnaCategory; // 문의글 카테고리

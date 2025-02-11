@@ -7,6 +7,7 @@ import org.springframework.util.Assert;
 
 import java.time.LocalDateTime;
 
+@Getter
 @Entity
 @Table(name = "QNA",
         indexes = {
