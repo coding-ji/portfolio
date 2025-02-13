@@ -12,7 +12,7 @@ import java.util.List;
 @Builder
 public class PaymentOutDTO {
     // 유저관련
-    private String userNum;
+    private Long userNum;
     private String nickName;
     private String name;
     private String email;

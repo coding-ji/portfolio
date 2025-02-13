@@ -31,7 +31,7 @@ public class ProjectOutDTO {
     private Long totalAmount;
     private LocalDateTime projectStartDate;
     private LocalDateTime projectEndDate;
-    private LocalDateTime writtenDate;  //작성날짜이자 신청날짜
+    private LocalDateTime writtenDate;
     private LocalDateTime approvalDate;
     private LocalDateTime rejectionDate;
     private Boolean isHidden;
@@ -39,7 +39,4 @@ public class ProjectOutDTO {
 
     //프로젝트 문의댓글
     private List<QnAOutDTO> qnaList;
-
-    //프로젝트 후원자목록
-    private List<UserOutDTO> supporters;
 }

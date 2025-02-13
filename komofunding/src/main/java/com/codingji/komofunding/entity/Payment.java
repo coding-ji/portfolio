@@ -74,7 +74,7 @@ public class Payment {
     @Column(name = "is_refunded")
     private Boolean isRefunded; // 환불 여부
 
-    @Builder
+    @Builder(toBuilder = true)
     public Payment(String paymentId, Long paymentNum, String userId, String projectId, List<ItemDTO> items, Long paidAmount, LocalDateTime paymentDate, String paymentMethod, String paymentStatus, String failureReason, String senderName, String shippingName, String shippingPhone, String shippingAddress, String refundBankName, String refundAccountHolder, String refundAccountNumber, Boolean isRefunded) {
         Assert.notNull(items, "items must not be null");
         Assert.notNull(paidAmount, "paidAmount must not be null");

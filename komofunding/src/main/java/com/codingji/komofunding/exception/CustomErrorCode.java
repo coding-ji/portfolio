@@ -5,7 +5,7 @@ import lombok.RequiredArgsConstructor;
 
 @Getter
 @RequiredArgsConstructor
-public enum ErrorCode {
+public enum CustomErrorCode {
     // 공통 에러
     INVALID_INPUT_VALUE(400, "COMMON-ERR-001", "잘못된 입력 형식입니다."),
     INTERNAL_SERVER_ERROR(500, "COMMON-ERR-002", "서버 오류가 발생하였습니다."),
@@ -24,8 +24,9 @@ public enum ErrorCode {
     ACCOUNT_NOT_FOUND(404, "ACCOUNT-ERR-002", "사용자를 찾을 수 없습니다."),
     ROLE_NOT_EXISTS(403, "ACCOUNT-ERR-003", "사용자 권한이 없습니다."),
     DUPLICATE_EMAIL(400, "ACCOUNT-ERR-OO4", "이미 존재하는 이메일입니다."),
-    PASSWORD_MISMATCH(400, "ACCOUNT-ERR-OO5", "비밀번호가 일치하지 않습니다."),
-    USER_INACTIVE(403, "ACCOUNT-ERR-OO6", "비활성화된 사용자입니다."),
+    DUPLICATE_NICKNAME(400, "ACCOUNT-ERR-005","이미 존재하는 닉네임입니다."),
+    PASSWORD_MISMATCH(400, "ACCOUNT-ERR-OO6", "비밀번호가 일치하지 않습니다."),
+    USER_INACTIVE(403, "ACCOUNT-ERR-OO7", "비활성화된 사용자입니다."),
 
     // 프로젝트 관련 에러
     PROJECT_NOT_FOUND(404, "PROJECT_ERR_001", "프로젝트를 찾을 수 없습니다."),

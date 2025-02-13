@@ -92,7 +92,7 @@ public class User {
     @Column(name = "privacy_agreement")
     private Boolean privacyAgreement; // 개인정보 동의 여부
 
-    @Builder
+    @Builder(toBuilder = true)
     public User(String userId, Long userNum, String email, String password, String name, String nickName, String phoneNumber, String profileImg, String shortDescription, UserStatus activatedStatus, String deactivationReason, LocalDateTime deactivationDate, String bankName, String accountNumber, String accountHolder, LocalDateTime joinDate, LocalDateTime lastLoginTime, String corporationName, String corporationTel, String BSN, List<String> projectIds, Boolean privacyAgreement) {
         Assert.notNull(email, "email must not be null");
         Assert.notNull(password, "password must not be null");
