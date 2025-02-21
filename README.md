@@ -22,7 +22,7 @@
   - Design : Figma
   - Diagram : draw.io, PlantUML
 * 핵심 기능
-  - 사용자 관리 : JSESSIONID를 통한 사용자 정보 관리
+  - 사용자 관리 : JSESSIONID를 이용한 사용자 세션 인증 관리
   - 프로젝트 등록 및 관리 : 사용자가 프로젝트를 생성 및 관리할 수 있는 기능 구현
   - 후원 시스템 : 사용자가 원하는 프로젝트를 후원할 수 있는 결제 기능 구현
   - 커뮤니티 기능 : 공지사항 열람 및 1:1 문의, 프로젝트별 Q&A 기능 구현
@@ -47,7 +47,12 @@
   - Design : Figma
   - Diagram : draw.io, PlantUML
 * 핵심 기능
+  - 경기 예약 및 매칭 기능을 위한 UI 구현
+  - 마이페이지 및 관리자페이지 UI 구현
+  - 반응형 UI 설계
 * 팀 성과
+  - draw.io 및 PlantUML 등을 통한 문서화로 팀원 간 정보 공유
+  - Figma를 활용한 UI 설계 후, 팀원들과 피드백을 주고받으며 개선
 * 기여 부분
   - https://github.com/coding-ji/portfolio/tree/main/pitchplay
 
@@ -64,6 +69,7 @@
   - Design : Figma
   - Diagram : draw.io, PlantUML
 * 핵심 기능
+  - 유기견 및 입양 관리
 * 팀 성과
 * 기여 부분
   - https://github.com/coding-ji/portfolio/tree/main/kkomoadopt
