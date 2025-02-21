@@ -15,7 +15,6 @@ Pitchplay는 사용자가 간편하게 축구 경기를 예약하고 매칭 팀 
 * 기여부분
   - React Router를 활용한 페이지 이동 및 동적 라우팅 관리
   - 소셜매칭 및 팀매칭 페이지 구현
-  - User 백엔드 로직 구현 및 데이터베이스 설계
 
 * Github 주소 : https://github.com/hyerin1111/pitchplay.git
 <br>
