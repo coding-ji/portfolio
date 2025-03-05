@@ -93,7 +93,7 @@ public class Project {
     private List<String> supportersIdList; // 프로젝트 후원자목록
 
     @Builder(toBuilder = true)
-    public Project(String projectId, String userId, Long projectNum, String title, ProjectCategory projectCategory, List<String> thumbnailImgs, String shortDescription, String description, List<ItemDTO> items, Long currentAmount, Long totalAmount, LocalDateTime projectStartDate, LocalDateTime projectEndDate, LocalDateTime writtenDate, LocalDateTime updatedDate, LocalDateTime approvalDate, LocalDateTime rejectionDate, Boolean isHidden, String statusChangeReason, List<String> qnaIdList, List<String> supportersIdList) {
+    private Project(String projectId, String userId, Long projectNum, String title, ProjectCategory projectCategory, List<String> thumbnailImgs, String shortDescription, String description, List<ItemDTO> items, Long currentAmount, Long totalAmount, LocalDateTime projectStartDate, LocalDateTime projectEndDate, LocalDateTime writtenDate, LocalDateTime updatedDate, LocalDateTime approvalDate, LocalDateTime rejectionDate, Boolean isHidden, String statusChangeReason, List<String> qnaIdList, List<String> supportersIdList) {
         Assert.notNull(title, "title must not be null");
         Assert.notNull(projectCategory, "project category must not be null");
         Assert.notNull(shortDescription, "short description must not be null");
