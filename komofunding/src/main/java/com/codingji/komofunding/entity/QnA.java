@@ -58,7 +58,7 @@ public class QnA {
     private LocalDateTime answerUpdatedDate; // 문의 답변 수정 날짜
 
     @Builder(toBuilder = true)
-    public QnA(String qnaId, Long qnaNumber, String userId, QnaCategory qnaCategory, String title, String question_comment, LocalDateTime writtenDate, LocalDateTime updatedDate, String answerUserId, String answer, LocalDateTime answerWrittenDate, LocalDateTime answerUpdatedDate) {
+    private QnA(String qnaId, Long qnaNumber, String userId, QnaCategory qnaCategory, String title, String question_comment, LocalDateTime writtenDate, LocalDateTime updatedDate, String answerUserId, String answer, LocalDateTime answerWrittenDate, LocalDateTime answerUpdatedDate) {
         Assert.notNull(question_comment, "question comment must not be null");
 
         this.qnaId = qnaId;
